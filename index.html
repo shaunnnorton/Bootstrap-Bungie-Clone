@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bungie.net(Bootstrap Clone)</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://www.bungie.net/favicon.ico?v=1" type="image/x-icon">
 </head>
+
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
-        <div class="group2 d-flex justify-content-start">   
-            <img class="w-25 h-25" src="https://www.bungie.net/img/theme/bungienet/bungie_logo_with_shield.svg" alt="">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top p-0 mx-2">
+        <div class="group2 d-flex justify-content-start align-items-center">
+            <img class="w-25 h-25" src="Images/bungie_logo_with_shield.svg" alt="">
             <div class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DESTINY 2</button>
+                <button class="btn btn-dark dropdown-toggle ml-5" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">DESTINY 2</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">BEYOND LIGHT</a>
                     <a class="dropdown-item" href="#">PLAY FOR FREE</a>
                     <a class="dropdown-item" href="#">SHADOWKEEP</a>
                     <a class="dropdown-item" href="#">FORSAKEN</a>
                 </div>
-                
+
             </div>
             <div class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SEASONS</button>
+                <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">SEASONS</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">SEASON OF ARRIVALS</a>
                     <a class="dropdown-item" href="#">SEASON OF THE WORTHY</a>
                     <a class="dropdown-item" href="#">SEASON OF DAWN</a>
                     <a class="dropdown-item" href="#">SEASON OF THE UNDYING</a>
                 </div>
-                
+
             </div>
             <div class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COMMUNITY</button>
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COMMUNITY</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">NEWS</a>
                     <a class="dropdown-item" href="#">MY CLAN</a>
@@ -44,7 +51,8 @@
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HELP</button>
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HELP</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">ARTICLES</a>
                     <a class="dropdown-item" href="#">NEW PLAYER GUIDE</a>
@@ -59,10 +67,11 @@
         </div>
         <div class="group1 d-flex justify-content-end flex-grow-1">
             <div class="nav-item">
-                <button class="btn btn-primary ml-5" type="button">PLAY DESTINY 2</button>
+                <button class="btn btn-warning ml-5 rounded-0 border-danger" type="button">PLAY DESTINY 2</button>
             </div>
             <div class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MY ACCOUNT</button>
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MY ACCOUNT</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">SIGN IN</a>
                     <div class="dropdown-divider"></div>
@@ -73,162 +82,282 @@
                     <a class="dropdown-item" href="#">TWITCH</a>
                     <a class="dropdown-item" href="#">BATTLE.NET</a>
                     <div class="dropdown-divider"></div>
-                    <button class="btn btn-dark" type="button">JOIN UP</button>
+                    <button class="btn btn-dark px-4" type="button">JOIN UP</button>
                 </div>
             </div>
-        
-            <a href="#"><img src="https://via.placeholder.com/75" alt="Search"></a>
-            <a href="#"><img src="https://via.placeholder.com/75" alt="Globe"></a>
+            <a href="#"><img src="Images/search-white-18dp.svg" alt=""></a>
+            <a href="#"><img src="Images/language-white-18dp.svg" alt=""></a>
+
         </div>
     </nav>
     <div class="container-fluid row mx-0 px-0" id="Header">
-        <div class="jumbotron hero-background-image w-100 jumbotron-fluid pl-10">
-            <h1 class="display-5">DESTINY 2</h1>
-            <h2 class="display-4">BEYOND LIGHT</h2>
-            <hr class="my-4">
-            <h3 class="display-6">DARKNESS CALLS</h3>
-            <button class="btn btn-secondary" type="button">LEARN MORE</button>
+        <div class="jumbotron hero-background-image w-100 jumbotron-fluid pl-5">
+            <!--<h1 class="display-5">DESTINY 2</h1>
+            <h2 class="display-4">BEYOND LIGHT</h2>-->
+            <img class="w-25" src="Images/logo_en.png" alt="">
+            <hr class="my-4 w-25 ml-0 bg-light">
+            <h3 class="display-6 text-light text-center w-25">DARKNESS CALLS</h3>
+            <button class="btn btn-warning border-danger rounded-0 offset-1" type="button">LEARN MORE</button>
         </div>
     </div>
-    <div class="container-fluid row mx-0  bg-dark text-dark">
-        <header class="border-top w-100 p-0">
-            <span class="bg-light mt-0">FEATURED</span>
+    <div class="container-lg row mx-0  bg-dark text-dark vh-100 mx-5">
+        <header class="border-top w-100 pt-0 pb-0 mb-1 ">
+            <span class="bg-light p-1">FEATURED</span>
         </header>
-        <div class="card col-lg-6 bg-light">
-            Hello
+        <div class="card col-lg-6 bg-dark p-0 h-100">
+            <div class="card-img-overlay border-0 d-flex flex-column-reverse fotl-card">
+                <h5 class="card-title text-light text-bottom border-top w-50">FESTIVAL OF THE LOST 2020</h5>
+            </div>
         </div>
-        <div class="col-lg-3">
-            <div class="card col-lg-12 bg-light">
-                Hello 2
+        <div class="col-lg-3 pr-0">
+            <div class="card col-lg-12 bg-dark h-100 p-0 mr-0 eris-card">
+                <div class="card-img-overlay border-0 d-flex flex-column-reverse">
+                    <h5 class="card-title text-light text-bottom border-top w-75">SEASON OF ARRIVALS</h5>
+                </div>
             </div>
         </div>
         <div class="col-lg-3 ">
-            <div class="bg-light card col-lg-12">
-                Hello3
-            </div> 
-            <div class="bg-light card col-lg-12">
-                Hello4
+            <div class="bg-dark card col-lg-12 h-50 p-0 mb-1 stasis-card">
+                <div class="card-img-overlay border-0 d-flex flex-column-reverse">
+                    <h5 class="card-title text-light text-bottom border-top w-75">INTRODUCING STASIS</h5>
+                </div>
+            </div>
+            <div class="bg-dark card col-lg-12 h-50 p-0  play-card">
+                <div class="card-img-overlay border-0 d-flex flex-column-reverse">
+                    <h5 class="card-title text-light text-bottom border-top w-75">PLAY FOR FREE</h5>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid row mx-0 mt-4 bg-dark text-dark">
-        <header class="border-top w-100 p-0">
-            <span class="bg-light mt-0 ">LATEST</span>
+    <div class="container-fluid row mx-0 mt-5 bg-dark text-dark">
+        <header class="border-top w-100 p-0 mb-2">
+            <span class="bg-light mt-0 p-1">LATEST</span>
         </header>
-        
-        <div class="card col-lg-7 bg-light">
-            goop
-        </div>
-        <div class="card col-lg-4 bg-light">
-            tweet
-        </div>
-        <div class="card col-lg-7 bg-light">
-            shop
-        </div>
-        <div class="card col-lg-7 bg-light">
-            top
-        </div>
-        <div class="col-lg-7 bg-dark container-fluid ml-0 row p-0" id="breakups">
-            <div class="col-lg-6 mx-0 p-0">
-                <div class="card col-lg-12 bg-pink ">
-                    i Seee you
+
+        <div class=" m-2 card col-lg-7 bg-dark pl-0 border-0">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="Images/ArticleBanner_01.jpg" class="card-img" alt="...">
                 </div>
-                <div class="card col-lg-12 bg-pink">
-                    i know you
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">THE DARKNESS WALKS AMOUNG US. -
+                                10/22/2020</small></p>
+                        <h5 class="card-title text-light">THIS WEEK AT BUNGIE - 10/22/2020</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col-lg-3 bg-dark offset-1">
+            <div class="row no-gutters mt-3">
+                <div class="col-md-4">
+                    <img src="Images/icon_bungie_twitter.jpg" class="card-img image-fluid w-50 rounded-0 ml-1"
+                        alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body p-0 ml-n4">
+                        <h5 class="card-title text-light p-0 m-0">Bungie</h5>
+                        <p class="card-text p-0"><small class="text-muted">@Bungie</small></p>
+
+                    </div>
+                </div>
+                <div class="col-md-8 pt-1">
+                    <span class="text-light">𝗩𝗶𝗗𝗼𝗰 💠 𝗧𝗼𝗺⻿...</span>
+                    <div class="text-light pt-2">
+                        <span><img src="Images/icon_twitter_logo_small.png" alt=""> 41m</span>
+                    </div>
+                </div>
+                <button class="col-md-12 w-100 btn btn-dark text-center border-secondary mt-3 m-0">View More</button>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="m-2 card col-lg-7 bg-dark pl-0 border-0">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="Images/Update_Hotfix_Blog.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">THE ONE ABOUT A SOME FOTL REWARDS DROPPING AT 750
+                                POWER - 10/20/2020</small></p>
+                        <h5 class="card-title text-light">DESTINY 2 HOTFIX 2.9.2.2</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-2 card col-lg-7 bg-dark pl-0 border-0">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="Images/ArticleBanner_02.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">STARTING LINES AND FINISH LINES. -
+                                10/15/2020</small></p>
+                        <h5 class="card-title text-light">THIS WEEK AT BUNGIE - 10/15/2020</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7 bg-dark container-fluid ml-0 row p-0 pl-2" id="breakups">
+            <div class="col-lg-6 mx-0 p-0 ">
+                <div class="card col-lg-12 bg-dark p-0 h-50 border-0 rounded-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="Images/ArticleBanner_03.jpg" class="card-img image-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">FREQUENT FLIERS GER UPGRADES -
+                                        10/15/2020</small></p>
+                                <h5 class="card-title text-light">THE NEXT GENERATION OF DESTINY</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2 card col-lg-12 bg-dark p-0 h-50 border-0 rounded-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="Images/FotL_ArticleBanner_997x500.jpg" class="card-img image-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">TRICKS AND TREATS GALORE -
+                                        10/8/2020</small></p>
+                                <h5 class="card-title text-light">THIS WEEK AT BUNGIE - 10/8/2020</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 bg-green p-0">
-                <div class="card col-lg-12 bg-pink">
-                    i am you 
+                <div class="card col-lg-12 bg-dark p-0 h-50 border-0 rounded-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="Images/SKULL.JPG" class="card-img image-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">COPIOUS MUGS OF TEA. - 10/9/2020</small>
+                                </p>
+                                <h5 class="card-title text-light">COMMUNITY FOCUS - PESTY</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card col-lg-12 bg-pink">
-                    run
+                <div class="mt-2 card col-lg-12 bg-dark p-0 h-50 border-0 rounded-0">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="Images/LOOORE.JPG" class="card-img image-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">- 10/8/2020</small></p>
+                                <h5 class="card-title text-light">"THEY'RE NOT COMING."</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         </div>
+        <div class="row col-lg-7 d-flex justify-content-center">
+            <button class="btn btn-dark border-light rounded-0 p-3 px-4">More News</button>
+        </div>
+
     </div>
-    <div class="container col-lg-8 col-offset-2 w-auto h-25 bg-light mt-3">
+    <div class="container col-lg-8 col-offset-2 w-auto h-25 bg-dark mt-5 pt-5">
         <div class="justify-content-center row">
-            <img src="https://via.placeholder.com/150x75" alt="" class="">
+            <img src="Images/bungie_logo_footer.png" alt="" class="image-fluid">
         </div>
-        <hr>
-        <div class="row col-lg-12 m-0 px-0">
-            <ul class="col-lg-2 bg-dark list-group">
-                <li class="list-group-item b-none">Destiny 2</li>
-                <li class="list-group-item b-none">News</li>
-                <li class="list-group-item b-none">Get Destiny 2</li>
-                <li class="list-group-item b-none">Expansions</li>
-                <li class="list-group-item b-none">Seasons</li>
-                <li class="list-group-item b-none">Community</li>
-                <li class="list-group-item b-none">Find Fireteam</li>
-                <li class="list-group-item b-none">Developer Portal</li>
-                
+        <hr class="bg-light">
+        <div class="row col-lg-12 m-0 px-0 mb-4">
+            <ul class="col-lg-2 bg-dark list-group list-group-flush">
+                <li class="list-group-item p-0 bg-dark text-light b-none">Destiny 2</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">News</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Get Destiny 2</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Expansions</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Seasons</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Community</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Find Fireteam</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Developer Portal</li>
+
             </ul>
-            <ul class="col-lg-2 bg-dark list-group"">
-                <li class="list-group-item b-none">Companion</li>
-                <li class="list-group-item b-none">Sign Up/Sign In</li>
-                <li class="list-group-item b-none">Season Progress</li>
-                <li class="list-group-item b-none">Triumphs</li>
-                <li class="list-group-item b-none">Cross Save</li>
-                <li class="list-group-item b-none">PC Move</li>
-                <li class="list-group-item b-none">Rewards</li>
-                <li class="list-group-item b-none">Redeem Codes</li>
+            <ul class="col-lg-2 bg-dark list-group list-group-flush"">
+                <li class=" list-group-item p-0 bg-dark text-light b-none">Companion</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Sign Up/Sign In</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Season Progress</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Triumphs</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Cross Save</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">PC Move</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Rewards</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Redeem Codes</li>
             </ul>
-            <ul class="col-lg-2 bg-dark list-group">
-                <li class="list-group-item b-none">Store</li>
-                <li class="list-group-item b-none">What's New</li>
-                <li class="list-group-item b-none">Merchandise</li>
-                <li class="list-group-item b-none">Soundtracks</li>
-                <li class="list-group-item b-none">Community Artist Series</li>
-                <li class="list-group-item b-none">Bungie Rewards</li>
-                <li class="list-group-item b-none">Last Chance</li>
+            <ul class="col-lg-2 bg-dark list-group list-group-flush">
+                <li class="list-group-item p-0 bg-dark text-light b-none">Store</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">What's New</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Merchandise</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Soundtracks</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Community Artist Series</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Bungie Rewards</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Last Chance</li>
             </ul>
-            <ul class="col-lg-2 bg-dark list-group">
-                <li class="list-group-item b-none">Careers</li>
-                <li class="list-group-item b-none"> Open Positions</li>
+            <ul class="col-lg-2 bg-dark list-group list-group-flush">
+                <li class="list-group-item p-0 bg-dark text-light b-none">Careers</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none"> Open Positions</li>
             </ul>
-            <ul class="col-lg-2 bg-dark list-group">
-                <li class="list-group-item b-none">Help</li>
-                <li class="list-group-item b-none">Guides</li>
-                <li class="list-group-item b-none">FAQ</li>
-                <li class="list-group-item b-none">Press Kit</li>
-                <li class="list-group-item b-none">Terms of Use</li>
-                <li class="list-group-item b-none">Privacy Policy</li>
-                <li class="list-group-item b-none">Payment Services Act</li>
-                <li class="list-group-item b-none">Do Not Sell my Personal Information</li>
+            <ul class="col-lg-2 bg-dark list-group list-group-flush">
+                <li class="list-group-item p-0 bg-dark text-light b-none">Help</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Guides</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">FAQ</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Press Kit</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Terms of Use</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Privacy Policy</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Payment Services Act</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Do Not Sell my Personal Information</li>
             </ul>
-            <ul class="col-lg-2 bg-dark list-group">
-                <li class="list-group-item b-none">Bungie Foundation</li>
-                <li class="list-group-item b-none">iPads for Kids</li>
-                <li class="list-group-item b-none">News & Events</li>
-                <li class="list-group-item b-none">Donate</li>
+            <ul class="col-lg-2 bg-dark list-group list-group-flush">
+                <li class="list-group-item p-0 bg-dark text-light b-none">Bungie Foundation</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">iPads for Kids</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">News & Events</li>
+                <li class="list-group-item p-0 bg-dark text-light b-none">Donate</li>
             </ul>
         </div>
-        <div class="col-lg-12 bg-dark d-flex justify-content-between">
+        <div class="col-lg-12 bg-dark d-flex justify-content-between text-light">
             <span>&copy; 2020 Bungie, Inc. All rights reserved.</span>
-            <span class="d-flex">Follow Us 
+            <span class="d-flex">Follow Us
                 <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item p-0"><img src="https://via.placeholder.com/25" alt=""></li>
-                    <li class="list-group-item p-0"><img src="https://via.placeholder.com/25" alt=""></li>
-                    <li class="list-group-item p-0"><img src="https://via.placeholder.com/25" alt=""></li>
-                    <li class="list-group-item p-0"><img src="https://via.placeholder.com/25" alt=""></li>
-                    <li class="list-group-item p-0 "><img src="https://via.placeholder.com/25" alt=""></li>
+                    <li class="list-group-item p-0 bg-dark mx-2 social facebook"></li>
+                    <li class="list-group-item p-0 bg-dark mx-2 social instagram"></li>
+                    <li class="list-group-item p-0 bg-dark mx-2 social twitter"></li>
+                    <li class="list-group-item p-0 bg-dark mx-2 social youtube"></li>
+                    <li class="list-group-item p-0 bg-dark mx-2  social twitch"></li>
                 </ul>
             </span>
-            <span><img src="https://via.placeholder.com/100x50" alt=""></span>
+            <span><img src="Images/rating_esrb_t_dest2.png" alt=""></span>
         </div>
         <div class="col-lg-12 p-0 m-0 bg-dark d-flex align-items-center flex-column">
-            <span class="row">Download the Destiny Companion App</span>
-            <div class="row">
-                <img src="https://via.placeholder.com/100x50" alt="">
-                <img src="https://via.placeholder.com/100x50" alt="">
+            <span class="row mt-5 text-light">Download the Destiny Companion App</span>
+            <div class="row mt-3">
+                <img src="Images/app-store-badge-en.svg" alt="">
+                <img class="img-fluid" src="Images/google-play-badge-en-1.png" alt="">
             </div>
         </div>
     </div>
-    
-    
+
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

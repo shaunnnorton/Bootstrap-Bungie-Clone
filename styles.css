@@ -1,0 +1,61 @@
+.hero-background-image{
+    background-image: url(./Images/bnet_beyond_light_homepage_desktop_Story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eris-card{
+    background-image: url(./Images/Eris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stasis-card{
+    background-image: url(./Images/Stasis_trailer_1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.play-card{
+    background-image: url(./Images/play.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fotl-card{
+    background-image: url(./Images/FotL2020_HomepageBanner_1920x590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.social{
+    position: relative;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Images/footersocialicons.png");
+    background-repeat: no-repeat;
+}
+.facebook{
+    background-position: 0px;
+
+}
+.instagram{
+    background-position: -25px;
+    
+}
+
+.twitter{
+    background-position: -49px;
+    
+}
+
+.youtube{
+    background-position: -73px;
+    
+}
+
+.twitch{
+    background-position: -97px;
+    
+}
+
